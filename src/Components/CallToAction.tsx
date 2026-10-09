@@ -1,4 +1,4 @@
-import { ArrowRight, ShieldCheck, Store } from 'lucide-react';
+import { ArrowRight ,  Store } from 'lucide-react';
 
 const CallToAction = () => {
     const apiUrl = import.meta.env.VITE_KINCHRIS_URL;
@@ -34,13 +34,7 @@ const CallToAction = () => {
                                 <span>Sign In to View Stores</span>
                                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform text-blue-600" />
                             </button>
-                            <button
-                                onClick={() => { window.location.href = apiUrl; }}
-                                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-blue-800/60 hover:bg-blue-800 backdrop-blur-md border border-white/20 text-white text-xs font-semibold transition-all flex items-center justify-center gap-2.5 cursor-pointer"
-                            >
-                                <ShieldCheck className="w-4 h-4 text-sky-200" />
-                                <span>Access Portal</span>
-                            </button>
+                           
                         </div>
                     </div>
 

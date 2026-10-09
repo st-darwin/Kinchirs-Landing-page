@@ -6,6 +6,7 @@ import AboutSection from "../Components/AboutSection"
 import CallToAction from "../Components/CallToAction"
 import Testimonials from "../Components/Testimonials"
 import Footer from "../Components/Footer"
+import VisitUs from "../Components/VisitUs"
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Badges/>
         <FeaturedProducts/>
         <AboutSection/>
+        <VisitUs/>  
         <CallToAction/>
         <Testimonials/>
         <Footer/>

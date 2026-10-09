@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../assets/icons/logo.png';
-import { Link } from 'react-router-dom';
+
 import { ArrowRight, Menu, X, Store, MessageSquare, Info } from 'lucide-react';
 
 const LandingNavbar = () => {
@@ -11,14 +11,14 @@ const LandingNavbar = () => {
     return (
         <div className="fixed top-4 inset-x-0 z-50 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <header className="bg-white/80 backdrop-blur-xl border border-sky-100/60 shadow-xl shadow-slate-900/5 rounded-3xl px-6 transition-all">
-                <div className="h-20 flex items-center justify-between">
+                <div className="h-15 flex items-center justify-between">
                     {/* Logo & Brand Name */}
                     <div  className="flex items-center gap-3 group">
                         <div className="w-11 h-11 rounded-2xl  text-white flex items-center justify-center font-bold shadow-md shadow-blue-600/20 group-hover:scale-105 transition-transform">
                           <img   src={logo} alt="Kinchris Switch Logo" className="w-full h-full rounded-2xl object-cover" />
                         </div>
                         <div>
-                            <span className="text-sm sm:text-base font-bold text-slate-900 tracking-tight block">Kinchris Switch</span>
+                            <span className="text-sm sm:text-base font-semibold text-slate-900 tracking-tight block">Kinchris Switch</span>
                             <span className="text-[11px] text-sky-600 font-semibold block">Automotive Store</span>
                         </div>
                     </div>
