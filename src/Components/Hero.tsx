@@ -1,5 +1,5 @@
 import { ArrowRight, CheckCircle2, Globe2 } from 'lucide-react';
-import heroImage from '../assets/icons/heroimage.png';
+import heroImage from '../assets/icons/heroImage.png';
 
 const Hero = () => {
     const apiUrl = import.meta.env.VITE_KINCHRIS_URL || window.location.origin;
