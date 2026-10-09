@@ -74,7 +74,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    {/* Right Column: Image/Visual Showcase */}
+                    {/* Right Column: Image/Visual Showcase with Local Image Restored */}
                     <div className="lg:col-span-6 relative order-2 lg:order-2">
                         {/* Soft Backdrop Accent Card */}
                         <div className="absolute -inset-4 bg-gradient-to-tr from-sky-300/30 to-blue-400/20 rounded-[2.5rem] blur-2xl -z-10"></div>
