@@ -7,6 +7,7 @@ import CallToAction from "../Components/CallToAction"
 import Testimonials from "../Components/Testimonials"
 import Footer from "../Components/Footer"
 import VisitUs from "../Components/VisitUs"
+import WhatWeSell from "../Components/WhatWeSell"
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
         <LandingNavbar/>
         <Hero/>
         <Badges/>
+         <WhatWeSell/>
         <FeaturedProducts/>
+       
         <AboutSection/>
         <VisitUs/>  
         <CallToAction/>
