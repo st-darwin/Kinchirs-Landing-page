@@ -8,6 +8,7 @@ import Testimonials from "../Components/Testimonials"
 import Footer from "../Components/Footer"
 import VisitUs from "../Components/VisitUs"
 import WhatWeSell from "../Components/WhatWeSell"
+import Delivery from "../Components/Delivery"
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Hero/>
         <Badges/>
          <WhatWeSell/>
+         <Delivery/>
         <FeaturedProducts/>
        
         <AboutSection/>

@@ -36,7 +36,7 @@ const truckTyres: TyreProduct[] = [
     { id: 't1', name: 'Heavy-Duty Long Haul', size: '315/80R22.5', image: truckTire1, features: 'Maximum mileage & resistance' },
     { id: 't2', name: 'Regional Cargo Rib', size: '295/80R22.5', image: truckTire2, features: 'Enhanced load capacity & wear' },
     { id: 't3', name: 'All-Terrain Commercial', size: '11R22.5', image: truckTire3, features: 'Aggressive tread for mixed terrain' },
-    { id: 't4', name: 'Super Single Hauler', size: '385/65R22.5', image: truckTire4, features: 'Reduced rolling resistance' },
+    { id: 't4', name: 'Super Single Hauler', size: '11r24.5', image: truckTire4, features: 'Reduced rolling resistance' },
 ];
 
 const WhatWeSell: React.FC = () => {
