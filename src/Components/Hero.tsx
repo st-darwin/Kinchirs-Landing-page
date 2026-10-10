@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, Globe2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Globe2 , ToolCase } from 'lucide-react';
 import heroImage from '../assets/icons/heroImage.png';
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
                         
                         {/* Cool Badge */}
                         <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/80 backdrop-blur-md border border-sky-200/80 text-sky-800 text-xs font-semibold shadow-xs shadow-sky-500/5">
-                            <span className="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span>
+                           <ToolCase className='w-4 h-4' />
                             <span>Direct Importers of Elite Tyres & Auto Supplies</span>
                         </div>
 

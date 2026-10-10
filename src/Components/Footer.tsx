@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, ArrowUp, Sparkles } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowUp, ToolCase } from 'lucide-react';
 import logo from '../assets/icons/logo.png';
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
                             Your premier automotive enterprise and management hub. Powering your fleet and machinery with Mega Tyres, Boothman Grease, and dependable Motor Parts.
                         </p>
                         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-700 text-[11px] font-medium">
-                            <Sparkles className="w-3 h-3 text-blue-600" />
+                            <ToolCase className="w-3 h-3 text-blue-600" />
                             <span>Secure Enterprise Management Portal</span>
                         </div>
                     </div>

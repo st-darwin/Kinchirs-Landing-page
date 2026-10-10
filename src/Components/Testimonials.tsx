@@ -29,7 +29,7 @@ const Testimonials = () => {
                 {/* Section Header */}
                 <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky-50 border border-sky-100 text-sky-700 text-xs font-semibold shadow-2xs">
-                        <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                      
                         <span>Customer Feedback</span>
                     </div>
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
