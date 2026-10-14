@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import logo from '../assets/icons/logo.png';
 
-import { ArrowRight, Menu, X, Store, MessageSquare, Info } from 'lucide-react';
+import { ArrowRight, Menu, X, Store, MessageSquare, Info, BadgeQuestionMark } from 'lucide-react';
 
 const LandingNavbar = () => {
 
@@ -28,6 +28,7 @@ const LandingNavbar = () => {
                         <a href="#stores" className="hover:text-blue-600 transition-colors">Stores</a>
                         <a href="#testimonial" className="hover:text-blue-600 transition-colors">Testimonial</a>
                         <a href="#about" className="hover:text-blue-600 transition-colors">About</a>
+                        <a href = "#faq" className="hover:text-blue-600 transition-colors">FAQ</a>
                     </nav>
 
                     {/* Desktop CTA Button */}
@@ -82,6 +83,14 @@ const LandingNavbar = () => {
                             >
                                 <Info className="w-4 h-4 text-sky-500" />
                                 <span>About</span>
+                            </a>
+                              <a
+                                href="#faq"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="flex items-center gap-3 px-4 py-3 rounded-2xl hover:bg-sky-50 hover:text-blue-600 transition-colors"
+                            >
+                                <BadgeQuestionMark className="w-4 h-4 text-sky-500" />
+                                <span>FAQ</span>
                             </a>
                         </nav>
                         <div className="pt-2">

@@ -187,7 +187,7 @@ const WhatWeSell: React.FC = () => {
                                     </div>
                                 </div>
                                 <div className="pt-3 mt-3 border-t border-slate-100 flex items-center justify-between">
-                                    <span className="text-[9px] font-semibold text-sky-600 bg-sky-50/80 px-2 py-0.5 rounded">Heavy Duty</span>
+                                    <span className="text-[9px] font-semibold text-sky-600 bg-sky-50/80 px-2 py-0.5 rounded">In Stock</span>
                                     <span className="text-[10px] sm:text-xs font-bold text-slate-700 font-mono">{tire.size}</span>
                                 </div>
                             </div>

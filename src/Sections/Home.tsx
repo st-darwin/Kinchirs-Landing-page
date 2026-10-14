@@ -9,7 +9,9 @@ import Footer from "../Components/Footer"
 import VisitUs from "../Components/VisitUs"
 import WhatWeSell from "../Components/WhatWeSell"
 import Delivery from "../Components/Delivery"
+import HowItWorks from "../Components/HowItWorks"
 
+import Faq from "../Components/Faq"
 const Home = () => {
   return (
     <div>
@@ -17,10 +19,15 @@ const Home = () => {
         <Hero/>
         <Badges/>
          <WhatWeSell/>
-         <Delivery/>
+        
         <FeaturedProducts/>
+         <Delivery/>
+        <HowItWorks/>
+         
        
         <AboutSection/>
+        <Faq/>
+
         <VisitUs/>  
         <CallToAction/>
         <Testimonials/>

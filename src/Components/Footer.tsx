@@ -29,7 +29,7 @@ const Footer = () => {
                             <span className="text-lg font-bold text-slate-900 tracking-tight">Kinchris Switch Enterprise</span>
                         </div>
                         <p className="text-xs sm:text-sm text-slate-500 max-w-sm leading-relaxed">
-                            Your premier automotive enterprise and management hub. Powering your fleet and machinery with Mega Tyres, Boothman Grease, and dependable Motor Parts.
+                            Your premier automotive enterprise and management hub. Powering your fleet and machinery with Mega Tyres, Booth Grease, and dependable Motor Parts.
                         </p>
                         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-700 text-[11px] font-medium">
                             <ToolCase className="w-3 h-3 text-blue-600" />
@@ -56,7 +56,7 @@ const Footer = () => {
                                     className="text-slate-500 hover:text-blue-600 transition-colors flex items-center gap-1.5 group cursor-pointer"
                                 >
                                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500 group-hover:scale-125 transition-transform"></span>
-                                    Boothman Grease
+                                    Booth Grease
                                 </a>
                             </li>
                             <li>

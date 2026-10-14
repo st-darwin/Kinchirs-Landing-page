@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
             icon: Disc,
         },
         {
-            title: "Boothman Grease",
+            title: "Booth Grease",
             category: "Lubricants & Grease",
             description: "Superior thermal stability and lubrication for heavy machinery, bearings, and automotive joints.",
             badge: "High Demand",

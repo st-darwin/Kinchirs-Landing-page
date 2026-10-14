@@ -31,7 +31,7 @@ const Hero = () => {
                                 </span>
                             </h1>
                             <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal max-w-xl">
-                                Welcome to Kinchris Switch. Experience seamless store management and browse our exclusive selection of directly imported heavy-duty tyres, industrial Boothman grease, and dependable motor parts.
+                                Welcome to Kinchris Switch. Experience seamless store management and browse our exclusive selection of directly imported heavy-duty tyres, industrial Booth grease, and dependable motor parts.
                             </p>
                         </div>
 

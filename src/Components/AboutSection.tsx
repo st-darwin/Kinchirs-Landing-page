@@ -31,7 +31,7 @@ const AboutSection = () => {
                                 Kinchris Switch Enterprise
                             </h3>
                             <p className="text-xs sm:text-sm text-slate-600 max-w-sm leading-relaxed">
-                                Your reliable partner powering industries and vehicles with direct-imported mega tyres, Boothman grease, and dependable motor parts.
+                                Your reliable partner powering industries and vehicles with direct-imported mega tyres, Booth grease, and dependable motor parts.
                             </p>
 
                             {/* Trust Pill */}
@@ -61,7 +61,7 @@ const AboutSection = () => {
                                 Powering Every Journey with <span className="text-blue-600">Direct-Imported Quality.</span>
                             </h2>
                             <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-                                At Kinchris Switch, we bring top-tier reliability straight to your fleet. We directly import elite, heavy-duty tyres from global manufacturers, bridging the gap between international quality and local automotive needs. Combined with our high-performance Boothman grease and precision motor parts, our enterprise is built on trust, efficiency, and uncompromising standards.
+                                At Kinchris Switch, we bring top-tier reliability straight to your fleet. We directly import elite, heavy-duty tyres from global manufacturers, bridging the gap between international quality and local automotive needs. Combined with our high-performance Booth grease and precision motor parts, our enterprise is built on trust, efficiency, and uncompromising standards.
                             </p>
                         </div>
 

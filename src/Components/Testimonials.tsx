@@ -11,7 +11,7 @@ const Testimonials = () => {
         {
             name: "Mr. Jaden",
             role: "Satisfied Customer",
-            content: "Boothman Grease provides exceptional lubrication for my equipment. The products here are top-grade and always reliable.",
+            content: "Booth Grease provides exceptional lubrication for my equipment. The products here are top-grade and always reliable.",
             rating: 5,
         },
         {

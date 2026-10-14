@@ -22,7 +22,7 @@ const CallToAction = () => {
                         </h2>
 
                         <p className="text-sm sm:text-base text-sky-100 max-w-xl mx-auto leading-relaxed">
-                            Sign in now to view our specialized stores—Mega Tyres, Boothman Grease, and Motor Parts—packed with premium, ready-to-ship products.
+                            Sign in now to view our specialized stores—Mega Tyres, Booth Grease, and Motor Parts—packed with premium, ready-to-ship products.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
